@@ -61,18 +61,6 @@ return [
             // 'cache'        => 'foo'
         ],
 
-        'copy' => [
-            'driver'          => 'copy',
-            'consumer-key'    => 'your-consumer-key',
-            'consumer-secret' => 'your-consumer-secret',
-            'access-token'    => 'your-access-token',
-            'token-secret'    => 'your-token-secret',
-            // 'prefix'          => 'your-prefix',
-            // 'visibility'      => 'public',
-            // 'eventable'       => true,
-            // 'cache'           => 'foo'
-        ],
-
         'dropbox' => [
             'driver'     => 'dropbox',
             'token'      => 'your-token',
