@@ -36,7 +36,6 @@ class ConnectionFactoryTest extends AbstractTestCase
         return [
             ['awss3', 'AwsS3Connector'],
             ['azure', 'AzureConnector'],
-            ['copy', 'CopyConnector'],
             ['dropbox', 'DropboxConnector'],
             ['ftp', 'FtpConnector'],
             ['gridfs', 'GridFSConnector'],
